@@ -20,7 +20,6 @@ const firebaseConfig = {
 };
 let app;
 
-console.log('getApps()', import.meta.env);
 
 if (getApps().length === 0) {
   console.log('initialize');
