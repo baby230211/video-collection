@@ -101,7 +101,7 @@ function App() {
           <VideoCard
             key={data.id}
             data={data}
-            deleteVideo={user?.displayName === '謝成宥' && deleteVideo(data.id)}
+            deleteVideo={deleteVideo(data.id)}
           />
         ))}
       </div>
